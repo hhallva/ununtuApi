@@ -60,7 +60,7 @@ services:
       MYSQL_USER: root
       MYSQL_PASSWORD: root
     volumes:
-      - productdb:/var/lib/mysql
+      - productdb:/var/lib/mysql/products
     networks:
       - net
 
@@ -74,7 +74,7 @@ services:
       MYSQL_USER: root
       MYSQL_PASSWORD: root
     volumes:
-      - orderdb:/var/lib/mysql
+      - orderdb:/var/lib/mysql/orders
     networks:
       - net
 
