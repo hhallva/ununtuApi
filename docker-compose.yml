@@ -1,7 +1,7 @@
 services:
-  apigateway:
-     container_name: "apigateway"
-     image: ${DOCKER_REGISTRY-}apigateway
+  sluze:
+     container_name: "sluze"
+     image: ${DOCKER_REGISTRY-}sluze
      build:
        context: .
        dockerfile: sluze/Dockerfile
