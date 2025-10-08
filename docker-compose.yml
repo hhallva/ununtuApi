@@ -70,7 +70,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: Order
+      MYSQL_DATABASE: Orders
       MYSQL_USER: root
       MYSQL_PASSWORD: root
     volumes:
